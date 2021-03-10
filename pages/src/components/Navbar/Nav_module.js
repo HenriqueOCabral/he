@@ -9,11 +9,11 @@ class Navbar extends Component {
 
   render() {
     return (
-      <>
+      <div className={styles.Navbar}>
 
         
         <HamburgerMenu/>
-      </>
+      </div>
     );
   }
 }
