@@ -41,7 +41,7 @@ const menuVariants = {
     transform: "translateX(3%)",
   },
   closed: {
-    transform: "translateX(103%)",
+    transform: "translateX(333%)",
   },
 };
 
