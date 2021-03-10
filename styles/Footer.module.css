@@ -1,0 +1,125 @@
+.section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.glass {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    border: transparent;
+}
+
+.title {
+    margin-top: 3rem;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    color: var(--dark-blue-gray);
+}
+
+.subtitle {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    color: #111111;
+}
+
+.call {
+    height: fit-content;
+    width: 45rem;
+    margin-top: .5rem;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--dark-blue-gray);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.socialRow {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-left: 1.5rem;
+}
+
+
+
+.fit {
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    padding: 0rem;
+}
+
+.img2 {
+    margin-bottom: 0.8rem !important;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.addres {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--english-violet);
+    text-align: right;
+}
+
+.addres2 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--english-violet);
+    text-align: right;
+}
+
+.last {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    align-self: baseline;
+    justify-content: flex-end;
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+
+
+@media(max-width: 768px) {
+    .title {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .call {
+        font-size: 1.6rem;
+        text-align: center;
+        width: 100%;
+    }
+    .socialRow {
+        display: none;
+    }
+}
