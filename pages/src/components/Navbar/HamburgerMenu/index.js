@@ -39,9 +39,11 @@ const ContentContainer = styled.div`
 const menuVariants = {
   open: {
     transform: "translateX(3%)",
+    zindex: 90,
   },
   closed: {
-    transform: "translateX(333%)",
+    transform: "translateX(103%)",
+    zindex: 1,
   },
 };
 
