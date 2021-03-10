@@ -114,6 +114,9 @@
         font-size: 3.5rem;
         text-align: center;
     }
+    .subtitle {
+        text-align: center;
+    }
     .call {
         font-size: 1.6rem;
         text-align: center;
