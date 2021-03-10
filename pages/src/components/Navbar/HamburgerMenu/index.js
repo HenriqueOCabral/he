@@ -17,7 +17,7 @@ const MenuContainer = styled(motion.div)`
   position: fixed;
   top: 0;
   right: 0;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   transform: translateX(4em);
@@ -37,10 +37,12 @@ const ContentContainer = styled.div`
 
 const menuVariants = {
   open: {
-    transform: "translateX(0%)"
+    transform: "translateX(3%)",
+    display: "flex"
   },
   closed: {
-    transform: "translateX(100%)"
+    transform: "translateX(103%)",
+    display: "none"
   },
 };
 
