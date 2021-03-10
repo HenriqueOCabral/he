@@ -121,12 +121,12 @@ export default function curriculo() {
                 >
                   Henrique Oliveira Cabral
                 </a>{" "}
-                29 anos, juiz-forano, mineiro, sempre em busca de novos desafios
+                29 anos,fluente em português e compreensão avançada em inglês, juiz-forano, mineiro, sempre em busca de novos desafios
                 e conhecimento. Possui histórico de aprovações em vestibulares a
                 nível de ensino médio: CTU - 2007; e a nível superior: Economia
                 UFJF - 2010; Engenharia Mecatrônica IFET - 2010 (cursado até
-                2012); FAEFID UFJF - 2013(cursado até 2018) e 1º lugar geral
-                Sistemas de Informação UFJF - 2020(formação atual).
+                2012); FAEFID UFJF - 2013 (cursado até 2018) e 1º lugar geral
+                Sistemas de Informação UFJF - 2020 (formação atual).
               </p>
             </div>
           </div>
