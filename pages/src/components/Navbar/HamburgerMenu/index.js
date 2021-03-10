@@ -8,9 +8,8 @@ import  NavMenu  from "./navMenu";
 
 
 const MenuContainer = styled(motion.div)`
-  min-width: 300px;
   width: 100%;
-  max-width: 44%;
+  max-width: 440px;
   height: 100vh;
   background-color: #56638aff;
   box-shadow: -2px 0 2px rgba(15, 15, 15, 0.3);
@@ -38,12 +37,10 @@ const ContentContainer = styled.div`
 
 const menuVariants = {
   open: {
-    transform: "translateX(3%)",
-    zindex: 90,
+    transform: "translateX(0%)"
   },
   closed: {
-    transform: "translateX(103%)",
-    zindex: 1,
+    transform: "translateX(100%)"
   },
 };
 
