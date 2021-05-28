@@ -103,7 +103,7 @@ export default function NavMenu({ isOpen }) {
             },
           }}
         >
-          <a href="https://github.com/Henrique-NiroL">GITHUB</a>
+          <a href="https://github.com/HenriqueOCabral">GITHUB</a>
         </NavLink>
         <NavLink
           initial={false}
