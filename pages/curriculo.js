@@ -437,7 +437,7 @@ export default function curriculo() {
                   </a>
                 </Col>
                 <Col className={foot.fit} lg={"auto"} xs={1}>
-                  <a href="https://github.com/Henrique-NiroL">
+                  <a href="https://github.com/HenriqueOCabral">
                     <Image
                       className={foot.img2}
                       src="/github.png"
