@@ -10,7 +10,7 @@
     --malachite: #53dd6cff;
     --polished-pine: #63a088ff;
     --dark-blue-gray: #56638aff;
-    --english-violet: #483a58ff;
+    --english-violet: rgb(72, 58, 88);
     --old-mauve: #56203d;
 }
 
@@ -29,7 +29,7 @@ body {
     margin: 0;
     font-family: 'Nunito', sans-serif;
     background-repeat: no-repeat;
-    background: #ffffff;
+    background: #1A181B !important;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
