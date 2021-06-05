@@ -7,6 +7,7 @@
     box-shadow: 2px -12px 54px -6px rgba(63, 63, 63, 0.75);
 -webkit-box-shadow: 2px -12px 54px -6px rgba(63, 63, 63, 0.75);
 -moz-box-shadow: 2px -12px 54px -6px rgba(63, 63, 63, 0.75);
+z-index: 99999999;
 }
 
 .glass {
