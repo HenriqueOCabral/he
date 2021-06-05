@@ -103,7 +103,7 @@ z-index: 99999999;
 
 @media(max-width: 768px) {
     .title {
-        font-size: 3rem;
+        font-size: 3.2rem;
         text-align: center;
     }
     .subtitle {

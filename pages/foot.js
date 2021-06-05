@@ -113,7 +113,7 @@ export default function VantaFoot({ width, height, children }) {
                   </a>
                 </Col>
                 <Col className={foot.fit} lg={"auto"} xs={1}>
-                  <a href="https://github.com/HenriqueOCabral">
+                  <a href="https://henriqueocabral.medium.com/">
                     <Image
                       className={foot.img}
                       src="/medium.svg"
