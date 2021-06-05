@@ -164,25 +164,21 @@
 
 
 @media (max-width: 768px) {
+    .section {
+        margin-top: -6.5rem !important;
+    }
     .progressIcon {
     width: 60px;
     height: 60px;
     left: 10px;
     top: 10px;
   }
-  .cto2,
-  .cto {
-      width: 60px;
-      height: 90px;
+  .title,
+  .insideText {
+      font-size: 14px;
   }
   .section {
       margin-top: 0;
-  }
-  .title {
-      font-size: 3.5rem;
-  }
-  .insideText {
-      font-size: 2.5rem;
   }
   .glass {
       width: 100%;
@@ -191,4 +187,13 @@
   .hack {
       display: none !important;
   }
+}
+
+@media(max-width: 375px) {
+    .title {
+        font-size: 11px;
+    }
+    .insideText {
+        font-size: 12px;
+    }
 }

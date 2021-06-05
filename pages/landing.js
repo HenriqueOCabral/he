@@ -45,8 +45,7 @@ export default function VantaFirst({ width, height, children }) {
           <div className={first.left}>
             <div className={first.center}>
               <h1 className={first.title}>
-                Henrique Cabral <br />
-                Frontend | Red Team
+                Henrique Cabral
               </h1>
               <ul className={first.list}>
                 <li>
