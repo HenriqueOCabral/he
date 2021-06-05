@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
-import NET from "vanta/dist/vanta.net.min";
+import React from "react";
+import RINGS from "vanta/dist/vanta.rings.min.js"
 import * as THREE from "three";
 import Image from "next/image";
 import {
@@ -19,8 +20,7 @@ export default function VantaFirst({ width, height, children }) {
 
   useEffect(() => {
     if (!vantaEffect) {
-      setVantaEffect(
-        NET({
+      setVantaEffect(RINGS({
           THREE,
           el: vantaRef.current,
           mouseControls: true,
@@ -29,7 +29,7 @@ export default function VantaFirst({ width, height, children }) {
           minHeight: 200.0,
           minWidth: 200.0,
           scale: 1.0,
-          scaleMobile: 1.0,
+          scaleMobile: 1.0
         })
       );
     }
@@ -101,3 +101,4 @@ export default function VantaFirst({ width, height, children }) {
     </>
   );
 }
+
