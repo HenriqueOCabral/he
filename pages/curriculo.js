@@ -29,33 +29,7 @@ export default function curriculo() {
 
   useEffect(() => yRange.onChange((v) => setIsComplete(v >= 1)), [yRange]);
 
-      VANTA.NET({
-        el: "#first",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 200.0,
-        minWidth: 200.0,
-        scale: 1.0,
-        scaleMobile: 1.0,
-      });
-
-      VANTA.WAVES({
-        el: "#contact",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 200.0,
-        minWidth: 200.0,
-        scale: 1.0,
-        scaleMobile: 1.0,
-        color: 0x70707,
-        shininess: 46.0,
-        waveHeight: 5.0,
-        waveSpeed: 1.5,
-        zoom: 0.65,
-      });
-
+ 
   return (
     <>
       <svg className={first.progressIcon} viewBox="0 0 60 60">
@@ -531,6 +505,9 @@ export default function curriculo() {
           </div>
         </div>
       </div>
+      <script>
+
+      </script>
     </>
   );
 }
