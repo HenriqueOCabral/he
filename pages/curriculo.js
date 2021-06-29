@@ -142,7 +142,7 @@ export default function curriculo() {
             </div>
           </motion.div>
 
-          <h1 className={services.callText}>Portfólio</h1>
+          <h1 className={services.callText}>Portfólio e Colabs</h1>
           <Carousel indicators={false} fade={true} interval={2200}>
             <Carousel.Item className={about.styledCar}>
               <Image
